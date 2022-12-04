@@ -47,6 +47,15 @@ Route::get('/products', function() {
     return view('management.partials.products');
 });
 
+Route::get('/products/edit/product_name', function() {
+    return view('management.partials.product_edit');
+});
+
+Route::get('/products/edit/product_add', function() {
+    return view('management.partials.product_add');
+});
+
+
 
 // Route::middleware('auth')->group(function () {
 //     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
