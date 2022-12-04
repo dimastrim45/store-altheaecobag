@@ -55,6 +55,10 @@ Route::get('/products/edit/product_add', function() {
     return view('management.partials.product_add');
 });
 
+Route::get('/users/edit', function() {
+    return view('management.partials.user_edit');
+});
+
 
 
 // Route::middleware('auth')->group(function () {

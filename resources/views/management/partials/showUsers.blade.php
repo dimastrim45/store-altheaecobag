@@ -78,7 +78,7 @@
                             </div>
                         </td>
                         <td class="py-4 px-6">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
+                            <a href="/users/edit" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
                                 user</a>
                         </td>
                     </tr>
@@ -108,7 +108,7 @@
                             </div>
                         </td>
                         <td class="py-4 px-6">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
+                            <a href="/users/edit" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
                                 user</a>
                         </td>
                     </tr>
