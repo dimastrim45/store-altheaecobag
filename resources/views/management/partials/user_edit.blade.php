@@ -6,7 +6,7 @@
             style="background-image: url('{{ asset('images/curved/curved0.jpg') }}'); background-position-y: 50%">
             Pages <b>/ Dashboard</b>
             <br>
-            <b>Profile</b>
+            <b>User Edit</b>
             <span class=" h-full bg-yellow-400 fixed"></span>
             <div
                 class="absolute bottom-0 w-11/12 flex p-4 h-24 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/30 bg-clip-border backdrop-blur-xl backdrop-saturate-200 text-black -mb-10 shadow-2xl left-0 lg:mx-12">
@@ -15,8 +15,15 @@
                 <div class=" text-gray-600 font-semibold ml-5 text-lg my-auto">
                     Sam Martin
                     <br>
-                    <span class=" text-base font-normal">Sales Manager</span>
+                    <span class=" text-base font-normal">dimastm45@gmail.com</span>
                 </div>
+                {{-- change password button
+                for future update --}}
+                {{-- <div class=" ml-10 mt-5">
+                    <button type="button"
+                        class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Change
+                        Password</button>
+                </div> --}}
             </div>
         </div>
 
@@ -36,8 +43,8 @@
                         value="Dimas Tri Martono" required>
                 </div>
                 <div class="mb-6">
-                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tanggal
-                        Lahir</label>
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date of
+                        Birth</label>
                     <div class="relative">
                         <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                             <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
@@ -77,15 +84,27 @@
                         placeholder="name@flowbite.com" required>
                 </div>
                 <div class="mb-6">
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="user_avatar">Change
+                        Profle Picture</label>
+                    <input
+                        class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+                        aria-describedby="user_avatar_help" id="user_avatar" type="file">
+                </div>
+                <div class="mb-6">
                     <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Change
                         password</label>
                     <input type="password" id="password"
                         class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
                         required>
                 </div>
+
+                {{-- ze button --}}
                 <button type="submit"
                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Update
                     account info</button>
+                <button type="button"
+                    class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Cancel</button>
+
             </form>
         </div>
     </div>

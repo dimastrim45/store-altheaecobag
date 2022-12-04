@@ -1,7 +1,7 @@
 @extends('management.main')
 
 @section('body')
-    <div class=" h-max bg-gray-50 relative ml-64 pl-5 pt-5 pb-10">
+    <div class=" min-h-screen bg-gray-50 relative ml-64 pl-5 pt-5 pb-10">
         <div class=" relative pt-4 pb-5 overflow-visible mr-5 h-60 bg-cover rounded-2xl px-2 text-white bg-center"
             style="background-image: url('images/curved/curved0.jpg'); background-position-y: 50%">
             Pages <b>/ Dashboard</b>

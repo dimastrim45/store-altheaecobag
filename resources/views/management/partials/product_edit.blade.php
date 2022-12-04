@@ -110,7 +110,7 @@
                 <div class=" mb-2">
                     <input type="text" id="product_name"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="HSH 25X20X08">
+                        placeholder="HSH 25X20X08" value="HSH 25X20X28">
                 </div>
             </div>
             <div class="col-span-1 mb-5">
@@ -145,7 +145,12 @@
                     Detail bahan dan ukuran
                     Type : HLB / Goodie Bag / box bag
                     Bahan : Spunbond Texture 80gsm
-                    Ukuran : 24 cm (T) x 24 cm (P) x 24 cm (L)"></textarea>
+                    Ukuran : 24 cm (T) x 24 cm (P) x 24 cm (L)">Tas spunbond Ini cocok digunakan untuk tas berkatan/tas hajatan makanan untuk berbagai acara cocok untuk kotak nasi ukuran besar 24x24
+
+                    Detail bahan dan ukuran
+                    Type : HLB / Goodie Bag / box bag
+                    Bahan : Spunbond Texture 80gsm
+                    Ukuran : 24 cm (T) x 24 cm (P) x 24 cm (L)</textarea>
                 </div>
             </div>
         </div>
@@ -157,9 +162,6 @@
             </div>
             <div class="col-span-1 mb-5">
                 <span class="text-xl font-semibold">Harga Satuan</span>
-                <div class=" mt-5">
-
-                </div>
             </div>
             <div class=" col-span-3 px-10 ">
                 <div class="flex">
@@ -168,33 +170,65 @@
                         Rp
                     </span>
                     <input type="text" id="website-admin"
-                        class="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        class="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        value="4500">
                 </div>
             </div>
         </div>
 
         {{-- standard Product Management price form --}}
-        <div class=" w-full bg-white rounded-lg h-full p-2 shadow-xl grid grid-cols-4">
+        <div class=" w-full bg-white rounded-lg h-full p-2 shadow-xl grid grid-cols-4 mb-5">
             <div class=" text-2xl font-bold col-span-4 mb-2">
                 Product Management
             </div>
             <div class="col-span-1 mb-5">
                 <span class="text-xl font-semibold">Stok Produk</span>
-
             </div>
             <div class=" col-span-3 px-10 mb-5">
                 <input type="text" id="base-input"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Masukkan Jumlah Stok">
+                    placeholder="Masukkan Jumlah Stok" value="120">
             </div>
             <div class="col-span-1 mb-5">
                 <span class="text-xl font-semibold">SKU (Stock Keeping Unit)</span>
-
             </div>
             <div class=" col-span-3 px-10 ">
                 <input type="text" id="base-input"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Masukkan SKU">
+                    placeholder="Masukkan SKU" value="HSH202508">
+            </div>
+        </div>
+
+        {{-- varian warna --}}
+        <div class=" w-full bg-white rounded-lg h-full p-2 shadow-xl grid grid-cols-4">
+            <div class=" text-2xl font-bold col-span-4 mb-2">
+                Color Variant
+            </div>
+            <div class="col-span-1 mb-5 grid grid-cols-2">
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
             </div>
         </div>
 

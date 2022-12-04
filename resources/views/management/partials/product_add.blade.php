@@ -198,6 +198,40 @@
             </div>
         </div>
 
+        {{-- varian warna --}}
+        <div class=" w-full bg-white rounded-lg h-full p-2 shadow-xl grid grid-cols-4">
+            <div class=" text-2xl font-bold col-span-4 mb-2">
+                Color Variant
+            </div>
+            <div class="col-span-1 mb-5 grid grid-cols-2">
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+                <div class="flex items-center mb-4 gap-x-2">
+                    <input checked id="checkbox-1" type="checkbox" value=""
+                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <div class=" bg-red-700 w-5 h-5 rounded-full"></div>
+                    <label for="checkbox-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">BR</label>
+                </div>
+            </div>
+        </div>
+
+
         {{-- ze button --}}
         <div class="mt-10 w-1/4  grid grid-cols-2 gap-5">
             <button type="button"
