@@ -59,6 +59,17 @@ Route::get('/users/edit', function() {
     return view('management.partials.user_edit');
 });
 
+Route::get('/ordered', function() {
+    return view('management.partials.ordered');
+});
+
+Route::get('/payment', function() {
+    return view('management.partials.payment');
+});
+
+Route::get('/delivery', function() {
+    return view('management.partials.delivery');
+});
 
 
 // Route::middleware('auth')->group(function () {
