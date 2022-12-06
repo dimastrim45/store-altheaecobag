@@ -60,7 +60,7 @@ Route::get('/users/edit', function() {
 });
 
 Route::get('/ordered', function() {
-    return view('management.partials.ordered');
+    return view('management.partials.order_incoming');
 });
 
 Route::get('/payment', function() {
@@ -70,6 +70,11 @@ Route::get('/payment', function() {
 Route::get('/delivery', function() {
     return view('management.partials.delivery');
 });
+
+Route::get('/orders', function() {
+    return view('management.partials.order_all');
+});
+
 
 
 // Route::middleware('auth')->group(function () {
